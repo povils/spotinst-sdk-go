@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst"
 )
 
 // A Session provides a central location to create service clients.

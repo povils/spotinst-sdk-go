@@ -3,9 +3,9 @@ package multai
 import (
 	"context"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/client"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/session"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/client"
+	"github.com/povils/spotinst-sdk-go/spotinst/session"
 )
 
 // Service provides the API operation methods for making requests to

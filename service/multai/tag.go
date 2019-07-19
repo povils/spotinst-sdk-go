@@ -1,6 +1,6 @@
 package multai
 
-import "github.com/spotinst/spotinst-sdk-go/spotinst/util/jsonutil"
+import "github.com/povils/spotinst-sdk-go/spotinst/util/jsonutil"
 
 type Tag struct {
 	Key   *string `json:"key,omitempty"`

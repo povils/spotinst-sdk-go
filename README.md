@@ -8,20 +8,20 @@ You can view Spotinst API docs [here](http://help.spotinst.com/api/).
 
 If you are using Go 1.5 with the `GO15VENDOREXPERIMENT=1` vendoring flag, or 1.6 and higher you can use the following command to retrieve the SDK. The SDK's non-testing dependencies will be included and are vendored in the `vendor` folder.
 
-    go get -u github.com/spotinst/spotinst-sdk-go
+    go get -u github.com/povils/spotinst-sdk-go
 
 Otherwise if your Go environment does not have vendoring support enabled, or you do not want to include the vendored SDK's dependencies you can use the following command to retrieve the SDK and its non-testing dependencies using `go get`.
 
-    go get -u github.com/spotinst/spotinst-sdk-go/spotinst/...
-    go get -u github.com/spotinst/spotinst-sdk-go/service/...
+    go get -u github.com/povils/spotinst-sdk-go/spotinst/...
+    go get -u github.com/povils/spotinst-sdk-go/service/...
 
 If you're looking to retrieve just the SDK without any dependencies use the following command.
 
-    go get -d github.com/spotinst/spotinst-sdk-go/
+    go get -d github.com/povils/spotinst-sdk-go/
 
 These two processes will still include the `vendor` folder and it should be deleted if its not going to be used by your environment.
 
-    rm -rf $GOPATH/src/github.com/spotinst/spotinst-sdk-go/vendor
+    rm -rf $GOPATH/src/github.com/povils/spotinst-sdk-go/vendor
 
 ### Authentication
 
@@ -66,11 +66,11 @@ import (
 	"context"
 	"log"
 
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup"
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup/providers/aws"
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/session"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/stringutil"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup/providers/aws"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/session"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/stringutil"
 )
 
 func main() {
@@ -113,7 +113,7 @@ For a comprehensive documentation, check out the [API documentation](http://api.
 
 ## Examples
 
-For a list of examples, check out the [examples](https://github.com/spotinst/spotinst-sdk-go/tree/master/examples) directory.
+For a list of examples, check out the [examples](https://github.com/povils/spotinst-sdk-go/tree/master/examples) directory.
 
 ## Contributing
 

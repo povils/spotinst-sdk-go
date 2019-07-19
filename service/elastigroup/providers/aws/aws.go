@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/client"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/jsonutil"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/uritemplates"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/client"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/jsonutil"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/uritemplates"
 )
 
 // A Product represents the type of an operating system.
@@ -1256,7 +1256,9 @@ func (s *ServiceOp) StopDeployment(ctx context.Context, input *StopDeploymentInp
 	input.RollID = nil
 
 	r := client.NewRequest(http.MethodPut, path)
-	input.Roll.Status = spotinst.String("STOPPED")
+	input.Roll = &Roll{
+		Status: spotinst.String("STOPPED"),
+	}
 	r.Obj = input
 
 	resp, err := client.RequireOK(s.Client.Do(ctx, r))

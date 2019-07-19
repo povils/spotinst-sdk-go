@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst"
 )
 
 type Request struct {

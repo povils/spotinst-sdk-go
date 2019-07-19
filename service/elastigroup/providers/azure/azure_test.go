@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/session"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/session"
 	"github.com/stretchr/testify/assert"
 )
 

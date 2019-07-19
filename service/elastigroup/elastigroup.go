@@ -1,12 +1,12 @@
 package elastigroup
 
 import (
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup/providers/aws"
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup/providers/azure"
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup/providers/gcp"
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/client"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/session"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup/providers/aws"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup/providers/azure"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup/providers/gcp"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/client"
+	"github.com/povils/spotinst-sdk-go/spotinst/session"
 )
 
 // Service provides the API operation methods for making requests to

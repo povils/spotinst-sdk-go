@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/client"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/jsonutil"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/uritemplates"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/client"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/jsonutil"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/uritemplates"
 )
 
 // A Protocol represents the type of a L4 or L7 network protocol.
