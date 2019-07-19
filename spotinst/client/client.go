@@ -6,7 +6,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst"
 )
 
 // Client provides a client to the API.

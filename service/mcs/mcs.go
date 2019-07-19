@@ -3,9 +3,9 @@ package mcs
 import (
 	"context"
 	"encoding/json"
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/client"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/util/uritemplates"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/client"
+	"github.com/povils/spotinst-sdk-go/spotinst/util/uritemplates"
 	"io/ioutil"
 	"net/http"
 )

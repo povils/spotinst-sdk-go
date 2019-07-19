@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup"
-	"github.com/spotinst/spotinst-sdk-go/service/elastigroup/providers/aws"
-	"github.com/spotinst/spotinst-sdk-go/spotinst"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/session"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup"
+	"github.com/povils/spotinst-sdk-go/service/elastigroup/providers/aws"
+	"github.com/povils/spotinst-sdk-go/spotinst"
+	"github.com/povils/spotinst-sdk-go/spotinst/session"
 )
 
 func main() {

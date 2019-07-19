@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/spotinst/spotinst-sdk-go/spotinst/credentials"
-	"github.com/spotinst/spotinst-sdk-go/spotinst/log"
+	"github.com/povils/spotinst-sdk-go/spotinst/credentials"
+	"github.com/povils/spotinst-sdk-go/spotinst/log"
 )
 
 const (

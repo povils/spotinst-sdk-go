@@ -1,7 +1,6 @@
-module github.com/spotinst/spotinst-sdk-go
+module github.com/povils/spotinst-sdk-go
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/spotinst/spotinst-sdk-go v0.0.0-20190717074728-91df6b84cb73 // indirect
 	github.com/stretchr/testify v1.2.2
 )

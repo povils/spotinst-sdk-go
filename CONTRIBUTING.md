@@ -11,7 +11,7 @@ If you submit a pull request, please keep the following guidelines in mind:
 Assuming your `$GOPATH` is set up according to your desires, run:
 
 ```sh
-go get -d github.com/spotinst/spotinst-sdk-go/
+go get -d github.com/povils/spotinst-sdk-go/
 ```
 
 ## Running tests

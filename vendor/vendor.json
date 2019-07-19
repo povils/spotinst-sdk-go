@@ -2,5 +2,5 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/spotinst/spotinst-sdk-go"
+	"rootPath": "github.com/povils/spotinst-sdk-go"
 }
